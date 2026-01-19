@@ -222,6 +222,9 @@
   .-bottom-1 {
     bottom: calc(var(--spacing) * -1);
   }
+  .-bottom-px {
+    bottom: -1px;
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
@@ -275,6 +278,9 @@
   }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
+  }
+  .mb-225 {
+    margin-bottom: calc(var(--spacing) * 225);
   }
   .block {
     display: block;
@@ -494,6 +500,9 @@
   }
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
+  }
+  .py-25 {
+    padding-block: calc(var(--spacing) * 25);
   }
   .text-center {
     text-align: center;
