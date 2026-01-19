@@ -1,0 +1,27 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "prueba de seleccion",
+  "homepage": "https://github.com/sabenitez-unal/landing-page#readme",
+  "bugs": {
+    "url": "https://github.com/sabenitez-unal/landing-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabenitez-unal/landing-page.git"
+  },
+  "license": "ISC",
+  "author": "samuel-benite",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  }
+}
