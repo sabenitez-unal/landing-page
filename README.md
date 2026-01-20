@@ -3,6 +3,8 @@
 Proyecto de réplica y maquetación de la Landing Page Figma Land para prueba técnica.
 Centrada en interfaz de usuario responsiva y en un diseño **Pixel Perfect**
 
+**Página desplegada**: ***https://sabenitez-unal.github.io/landing-page/***
+
 ## Tecnologías utilizadas.
 - **HTML 5**: Con estructura semántica y accesible.
 - **TailwindCSS**: Framework basado en NodeJS para creación de diseño ágil y moderno.
