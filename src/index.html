@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba Técnica - Landing Page</title>
     <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body class="bg-white text-gray-900">
@@ -158,57 +159,71 @@
             </div>
         </section>
 
-        <section>
-            <div>
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
 
-                <div>
-                    <h2>Contact Us</h2>
-                    <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+                <div class="text-center mb-16">
+                    <h2 class="text-5xl font-light text-slate-800 mb-4">Contact Us</h2>
+                    <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+                        Most calendars are designed for teams. Slate is designed for freelancers.
+                    </p>
                 </div>
 
 
 
-                <div>
+                <div class="flex flex-col-reverse lg:flex-row gap-12 items-start">
 
-                    <div>
-                        <h3>Contact Us</h3>
-                        <form>
-                            <input type="text" id="name" name="name" required>
-                            <input type="email" id="email" name="email" required>
-                            <textarea id="message" name="message" required></textarea>
-                            <button type="submit">Send</button>
-
+                    <div class="w-full lg:w-1/2 bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-gray-100">
+                        <h3 class="text-2xl font-bold text-center text-slate-800 mb-10">Contact Us</h3>
+                        <form action="#" class="space-y-4">
+                            <input type="text" placeholder="Your Name" id="name" name="name" required class="w-full px-6 py-4 bg-gray-100 rounded-full focus:bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                            <input type="email" placeholder="Your Email" id="email" name="email" required class="w-full px-6 py-4 bg-gray-100 rounded-full focus:bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                            <textarea placeholder="Your Message" id="message" name="message" required class="w-full px-6 py-4 bg-gray-100 rounded-3xl focus:bg-white focus:ring-2 focus:ring-blue-500 outline-none transition"></textarea>
+                            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-20 rounded-full transition shadow-lg">
+                                Send
+                            </button>
                         </form>
                     </div>
 
-                    <div>
+                    <div class="w-full lg:w-1/2 flex flex-col space-y-10">
 
-                        <div>
-                            <div>
-                                <div>
-                                    <svg></svg>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center text-slate-600">
+                            <div class="flex flex-col items-center">
+                                <div class="text-blue-500 mb-4">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
                                 </div>
                                 <p>6386 Spring St, Anchorage, Georgia 12473</p>
                             </div>
-                            <div>
-                                <div>
-                                    <svg></svg>
+                            <div class="flex flex-col items-center">
+                                <div class="text-blue-500 mb-4">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                    </svg>
                                 </div>
                                 <p>+1 (123) 456-7890</p>
                             </div>
-                            <div>
-                                <div>
-                                    <svg></svg>
+                            <div class="flex flex-col items-center">
+                                <div class="text-blue-500 mb-4">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
                                 </div>
                                 <p><a href="mailto:info@example.com">info@example.com</a></p>
                             </div>
                         </div>
 
-                        <div>
-                            <img src="" alt="">
+                        <div class="hidden lg:block w-full h-72 rounded-3xl overflow-hidden shadow-md">
+                            <img src="" alt="Mapa de ubicación" class="w-full h-full object-cover">
                         </div>
 
-                        <div>
+                        <div class="flex space-x-6 justify-center lg:justify-start">
                             </div>
 
                     </div>
