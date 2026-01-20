@@ -19,12 +19,12 @@ Centrada en interfaz de usuario responsiva y en un diseño **Pixel Perfect**
 ## Instalación y Uso
 
 **1. Clonar el repositorio:**
-    ****git clone https://github.com/tu-usuario/figma-land.git****
+    ***git clone https://github.com/tu-usuario/figma-land.git***
 
 **2. Instalar dependencias (Se necesita Node.js):**
-    ****npm install****
+    ***npm install***
 
 **3. Compilar el CSS de Tailwind:**
-    ****npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch****
+    ***npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch***
 
 **4. Abrir el proyecto:** Lanza el archivo index.html usando el servidor en vivo (Live Server).
