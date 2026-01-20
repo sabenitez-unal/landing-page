@@ -11,7 +11,7 @@
 
 <body class="bg-white text-gray-900">
     <header class="absolute top-0 left-0 w-full z-50">
-        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <nav  id="menu-btn" class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
             <div class="hidden md:flex space-x-6 text-white text-sm font-medium">
                 <a href="#" class="hover:text-blue-400">Home</a>
@@ -31,15 +31,16 @@
                 <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
 
-            <div class="md:hidden text-white text-2xl">
-                <button id="menu-btn" class="flex flex-col items-end space-y-1 p-2 group">
-                    <span class="block w-8 h-1 bg-white rounded-full"></span>
-                    <span class="block w-6 h-1 bg-white rounded-full"></span>
-                    <span class="block w-4 h-1 bg-white rounded-full"></span>
+            <div
+                class="md:hidden text-white text-2xl cursor-pointer overflow-hidden transition-transform duration-500 hover:scale-110 active:scale-95">
+                <button class="lg:hidden flex flex-col items-end space-y-1 p-3 z-50">
+                    <span class="block w-8 h-1 bg-white rounded-full transition-all duration-300"></span>
+                    <span class="block w-6 h-1 bg-white rounded-full transition-all duration-300"></span>
+                    <span class="block w-4 h-1 bg-white rounded-full transition-all duration-300"></span>
                 </button>
             </div>
-
         </nav>
+
     </header>
 
     <main>
@@ -318,7 +319,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>s
 
 </body>
 
